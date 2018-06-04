@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.files = ""
   s.files =  Dir.glob("{examples,lib}/**/**/*") +
                       ["README.markdown","MIT-LICENSE", "CHANGELOG"]
+  s.has_rdoc = true
   s.homepage = %q{http://ts.freelancing-gods.com}
   s.rdoc_options = ["--title", "PrawnJS", "--line-numbers"]
   s.require_paths = ["lib"]
