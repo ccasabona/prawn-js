@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://ts.freelancing-gods.com}
   s.rdoc_options = ["--title", "PrawnJS", "--line-numbers"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{prawn}
+  # s.rubyforge_project = %q{prawn}
   s.summary = %q{A small extension to prawn that makes it possible to embed JavaScript fragment in  your document that respond to events.}
   s.add_dependency('prawn', '>=0.12.0')
 end
