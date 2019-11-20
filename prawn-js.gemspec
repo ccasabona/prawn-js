@@ -1,4 +1,5 @@
 # coding: utf-8
+require "prawn/version"
 
 Gem::Specification.new do |s|
   s.name = %q{prawn-js}
